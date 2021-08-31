@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        /* * is use for general styling */
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Ubuntu', sans-serif;
+        }
+        
+        .container {
+            width: 800px;
+            border: 3px solid burlywood;
+            /* to give margin in x axis */
+            margin: 33px auto;
+            background-color: rgba(157, 255, 144, 0.541);
+        }
+        
+        .item {
+            border: 3px solid rgb(74, 99, 107);
+            margin: 12px 6px;
+            padding: 12px 6px;
+            background-color: rgb(168, 145, 145);
+        }
+        
+        #fruits {
+            float: left;
+            clear: right;
+            width: 45%;
+        }
+        
+        #Computers {
+            clear: right;
+            float: left;
+            width: 48%;
+        }
+        
+        #stationary {
+            clear: both;
+            /* float: left; */
+            width: 98%;
+        }
+        
+        #Cosmetic {
+            clear: both;
+            /* float: left; */
+            width: 98%;
+        }
+        
+        p,
+        h3 {
+            text-align: justify;
+        }
+        
+        h1 {
+            margin: 22px auto;
+            width: 335px;
+            /* text-align: center; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to my store</h1>
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At error, veniam possimus dolor molestias est itaque impedit doloremque deserunt eaque nisi. Veritatis accusantium eligendi et magnam. Molestiae Lorem ipsum, dolor sit amet consectetur
+                adipisicing elit. Et amet dignissimos quam error nulla consequatur debitis, eaque ipsum autem tempore totam voluptatibus unde, explicabo hic perferendis incidunt magnam temporibus dolorum. quibusdam dignissimos reiciendis.
+            </p>
+        </div>
+        <div id="Computers" class="item">
+            <h3>Computers</h3>
+            <p id="computerspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quia distinctio aperiam officiis, officia impedit qui asperiores eos quod? Quis atque dolore adipisci Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia veniam
+                vel dolorem aspernatur corporis sapiente dolorum dolore fugit incidunt totam consequuntur eveniet eligendi itaque commodi, est repellat laudantium illo eaque praesentium placeat soluta ducimus.culpa voluptates blanditiis consectetur, hic,
+                enim eveniet dolorum odit, aperiam veritatis suscipit.
+            </p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>stationary</h3>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem natus velit pariatur esse id possimus! Reiciendis sequi sed Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quod odit voluptatum beatae illo, ullam
+                repellendus aspernatur ipsum exercitationem blanditiis, architecto, id in doloribus commodi harum doloremque inventore magni facere tenetur eveniet quia. Quisquam, rem.culpa officia velit nam debitis quos tempora repellendus deserunt earum,
+                sit animi rerum nostrum harum dolorum. Incidunt recusandae ducimus perspiciatis aspernatur architecto error tempora labore ipsum nobis!
+            </p>
+        </div>
+        <div id="Cosmetic" class="item">
+            <h3>Cosmetic</h3>
+            <p id="Cosmeticpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem natus velit pariatur esse id possimus! Reiciendis sequi sed Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quod odit voluptatum beatae illo, ullam
+                repellendus aspernatur ipsum exercitationem blanditiis, architecto, id in doloribus commodi harum doloremque inventore magni facere tenetur eveniet quia. Quisquam, rem.culpa officia velit nam debitis quos tempora repellendus deserunt earum,
+                sit animi rerum nostrum harum dolorum. Incidunt recusandae ducimus perspiciatis aspernatur architecto error tempora labore ipsum nobis!
+            </p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

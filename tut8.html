@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>This is HTML forms tutorial</h2>
+    <form action="backend.php">
+        <label for="name"> Name</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <label for="Role"> Role</label>
+        <div>
+            <input type="text" name="myRole" id="Role">
+        </div>
+        <br>
+        <label for="Email"> Email</label>
+        <div>
+            <input type="email" name="myEmail" id="Email">
+        </div>
+        <br>
+        <label for="date"> Date</label>
+        <div>
+            <input type="date" name="myDate" id="date">
+        </div>
+        <br>
+        <label for="bonus"> Bonus</label>
+        <div>
+            <input type="number" name="myNumber" id="bonus">
+        </div>
+        <br>
+        <label for="Are you eligible?"> Are you eligible?</label>
+        <div>
+            <input type="checkbox" name="myEligiblity" id="Are you eligible?" checked>
+        </div>
+        <br>
+        <label for="Male"> Gender</label>
+        <div>
+            <input type="radio" name="myGender" id="Male"> Female <input type="radio" name="myGender"> Other <input type="radio" name="myGender" id="Female">
+        </div>
+        <br>
+        <label for="Write about yourself">Write about yourself</label>
+        <div>
+            <textarea name="myText" cols="30" rows="10" id="Write about yourself"></textarea>
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+
+    </form>
+
+</body>
+
+</html>
